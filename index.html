@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>项目展示</title>
+    <style>
+        body {
+            font-family: "SimSun", serif;
+            background: linear-gradient(135deg, #f4f4f9, #d4ddee);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 30px;
+            width: 90%;
+            max-width: 800px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #666;
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-description {
+            margin-top: 20px;
+            font-size: 1.1rem;
+            color: #444;
+            text-align: left;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 项目中文名称 -->
+        <h1>多轴运动控制卡项目</h1>
+        <!-- 项目英文名称 -->
+        <h2>Multi-Axis Motion Control Card Project</h2>
+        
+        <p>感谢您查看我的项目，以下是我参与的一个关键项目：</p>
+        <img src="images/project_photo.jpg" alt="项目照片">
+        
+        <!-- 项目描述 -->
+        <div class="project-description">
+            <p><strong>项目内容：</strong>开发了一款多轴运动控制卡，用于物料识别和打包场景。通过优化网络通讯协议，实现以太网与STM32的数据交换，并通过FSMC总线与FPGA控制32路I/O和4轴电机。</p>
+        </div>
+
+        <footer>
+            <p>© 2024 - 智能电子控制实验室</p>
+        </footer>
+    </div>
+</body>
+</html>
